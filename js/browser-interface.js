@@ -2,8 +2,8 @@
 //
 // $(document).ready(function){
 //   $(".search-button").click(function(){
-//       var gitUser = ()
-//
+//     $(".return-button").show();
+//     $(".main").show();
+//     $("p").show();
 //   });
-//
-// }
+// });

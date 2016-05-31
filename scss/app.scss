@@ -9,6 +9,15 @@ body{
   margin-right: auto;
 }
 main{
+  width:1255px;
+  height:820px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.git-giant-laptop{
+  display:none;
   background: url(/git-giant-laptop.png);
   width:1255px;
   height:820px;
@@ -29,6 +38,7 @@ header{
 }
 footer{
   background: url(/git-footer.png);
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 230px;
@@ -37,7 +47,7 @@ footer{
 }
 
 .user-input{
-  display:none;
+  position:absolute;
   background: url(/git-main-box.png);
   background-repeat: none;
   width:1101px;
@@ -47,7 +57,6 @@ footer{
   margin-bottom: 0;
 }
 .search-button-wrapper{
-  display:none;
   width: 500px;
   height:500px;
   margin-left: auto;
@@ -55,7 +64,6 @@ footer{
 
 }
 .search-button{
-  display:none;
   background: url(/git-search-button.png);
   background-repeat: no-repeat;
   position:absolute;
@@ -66,17 +74,18 @@ footer{
   margin-top: 300px;
 }
 .text-wrapper{
-  display:none;
   position:absolute;
   padding-top: 170px;
   padding-left: 300px;
 }
 p{
+  display:none;
   position:absolute;
   margin-left: 600px;
   margin-top: 200px;
 }
 .return-button{
+  display:none;
   background: url("/git-back-to-main.png");
   width: 175px;
   height: 63px;
