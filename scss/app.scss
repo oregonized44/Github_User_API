@@ -19,6 +19,7 @@ header{
   background: url(/git-header.png);
   background-repeat: no-repeat;
   background-position: center center fixed;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   width: 1442px;
@@ -28,7 +29,39 @@ footer{
   background: url(/git-footer.png);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 634px;
+  margin-top: 230px;
   width:1442px;
   height: 31px;
+}
+
+.user-input{
+  background: url(/git-main-box.png);
+  background-repeat: none;
+  width:1101px;
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.search-button-wrapper{
+  width: 500px;
+  height:500px;
+  margin-left: auto;
+  margin-right: 250px;
+
+}
+.search-button{
+  background: url(/git-search-button.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  width: 215px;
+  height: 55px;
+  margin-left: 275px;
+  margin-right: auto;
+  margin-top: 300px;
+}
+.text-wrapper{
+  position:absolute;
+  padding-top: 170px;
+  padding-left: 300px;
 }
