@@ -1,11 +1,4 @@
-.showWeather{
-  height: 100%;
-  width: 100%;
-}
-#map_canvas {
-  height: 300px;
-  width: 600px;
-}
+
 h1{
   color:black;
 }
@@ -14,6 +7,15 @@ body{
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
+}
+main{
+  background: url(/git-giant-laptop.png);
+  width:1255px;
+  height:820px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 header{
   background: url(/git-header.png);
@@ -35,6 +37,7 @@ footer{
 }
 
 .user-input{
+  display:none;
   background: url(/git-main-box.png);
   background-repeat: none;
   width:1101px;
@@ -44,6 +47,7 @@ footer{
   margin-bottom: 0;
 }
 .search-button-wrapper{
+  display:none;
   width: 500px;
   height:500px;
   margin-left: auto;
@@ -51,6 +55,7 @@ footer{
 
 }
 .search-button{
+  display:none;
   background: url(/git-search-button.png);
   background-repeat: no-repeat;
   position:absolute;
@@ -61,7 +66,22 @@ footer{
   margin-top: 300px;
 }
 .text-wrapper{
+  display:none;
   position:absolute;
   padding-top: 170px;
   padding-left: 300px;
+}
+p{
+  position:absolute;
+  margin-left: 600px;
+  margin-top: 200px;
+}
+.return-button{
+  background: url("/git-back-to-main.png");
+  width: 175px;
+  height: 63px;
+  position:absolute;
+  margin-left: 538px;
+  margin-right: auto;
+  margin-top: 712px;
 }
