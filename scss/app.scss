@@ -1,96 +1,45 @@
-
-h1{
-  color:black;
-}
-body{
-  background:url(/git-fixed-background.png) center center fixed;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-}
-main{
-  width:1255px;
-  height:820px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.git-giant-laptop{
-  display:none;
-  background: url(/git-giant-laptop.png);
-  width:1255px;
-  height:820px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-header{
-  background: url(/git-header.png);
-  background-repeat: no-repeat;
-  background-position: center center fixed;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1442px;
-  height: 300px;
-}
-footer{
-  background: url(/git-footer.png);
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 230px;
-  width:1442px;
-  height: 31px;
-}
-
-.user-input{
-  position:absolute;
-  background: url(/git-main-box.png);
-  background-repeat: none;
-  width:1101px;
-  height:400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-}
-.search-button-wrapper{
-  width: 500px;
-  height:500px;
-  margin-left: auto;
-  margin-right: 250px;
-
-}
-.search-button{
-  background: url(/git-search-button.png);
-  background-repeat: no-repeat;
-  position:absolute;
-  width: 215px;
-  height: 55px;
-  margin-left: 275px;
-  margin-right: auto;
-  margin-top: 300px;
-}
-.text-wrapper{
-  position:absolute;
-  padding-top: 170px;
-  padding-left: 300px;
-}
-p{
-  display:none;
-  position:absolute;
-  margin-left: 600px;
-  margin-top: 200px;
-}
-.return-button{
-  display:none;
-  background: url("/git-back-to-main.png");
-  width: 175px;
-  height: 63px;
-  position:absolute;
-  margin-left: 538px;
-  margin-right: auto;
-  margin-top: 712px;
-}
+// body{
+// background:url(/Background.svg) center center fixed;
+// background-repeat: no-repeat;
+// margin-left: auto;
+// margin-right: auto;
+// }
+// header{
+//   background: url(/git-header.png);
+//   background-repeat: no-repeat;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 0px;
+//   width: 1443px;
+//   height: 101px;
+// }
+// footer{
+//   background: url(/git-footer.png);
+//   background-repeat: no-repeat;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-bottom: 0px;
+//   width:auto;
+//   height: 300px;
+// }
+// * {
+//   margin: 0;
+// }
+// html, body {
+//   height: 100%;
+// }
+// .page-wrap {
+//   min-height: 100%;
+//   /* equal to footer height */
+//   margin-bottom: -142px;
+// }
+// .page-wrap:after {
+//   content: "";
+//   display: block;
+// }
+// .footer, .page-wrap:after {
+//   height: 142px;
+// }
+// .footer {
+//   background: orange;
+// }
